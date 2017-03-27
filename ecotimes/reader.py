@@ -1,6 +1,6 @@
 import pickle as pkl
 
-in_file = '30000.0_eco_data.pkl'
+in_file = 'eco_data.pkl'
 
 with open(in_file, 'r') as f:
     data = pkl.load(f)
